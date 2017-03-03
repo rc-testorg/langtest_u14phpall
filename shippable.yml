@@ -3,11 +3,11 @@ language: php
 
 #Version number
 php:
-  - 5.4
-  - 5.5
-  - 5.6
-  - 7.0
-  - 7.1
+  #- 5.4 This is not supported in new image
+  #- 5.5
+  - "5.6"
+  - "7.0"
+  - "7.1"
 build:
 
   pre_ci_boot:
