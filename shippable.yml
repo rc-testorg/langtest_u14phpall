@@ -11,7 +11,7 @@ php:
 build:
 
   pre_ci_boot:
-    image_name: drydock/u14all
+    image_name: drydock/u14phpall
     image_tag: master
     pull: true
     
