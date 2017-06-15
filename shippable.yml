@@ -17,4 +17,3 @@ build:
     
   ci:
     - php --version
-
